@@ -55,4 +55,4 @@ while True:
 			cur.execute("kill " + str(row[0]) + ";")
 			DB.commit()
 			print "[OK] Process wos killed!!"
-	time.sleep(25)	#Sleep for 20 secons	
+	time.sleep(25)	#Sleep for 25 secons	
