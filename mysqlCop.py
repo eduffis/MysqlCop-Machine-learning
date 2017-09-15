@@ -18,7 +18,7 @@ clf = tree.DecisionTreeClassifier()
 clf = clf.fit(feauters,labels)
 
 #Database information
-DB = MySQLdb.connect(host="192.168.0.19",user="user",passwd="password",db="database")
+DB = MySQLdb.connect(host="192.168.200.100",user="user",passwd="password",db="database")
 cur = DB.cursor() #cursor for database
 
 #reurns the data from the query
